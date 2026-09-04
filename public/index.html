@@ -1,66 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Sessão de Pre Loading -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Página do 2H3</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;1,14..32,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://user-images.githubusercontent.com/31005408/178034510-400bc31a-2829-4584-b5e3-fbb78c8fc3e3.png">
+        <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body style="color: blueviolet; font-family: 'Inter',sans-serif;">
-    <section name="navbar">
-        <header>
-            <nav>
-                <ul>
-                    <li>logo tipo</li>
-                    <li>home</li>
-                    <li>sobre nós</li>
-                    <li>notícias</li>
-                    <li>cadastro</li>
-                    <li>ecomoney</li>
-                </ul>
-            </nav>
-            <hr />
-            <p>
-            <h1>
-                <span class="material-symbols-outlined" style="font-size: 1em;">
-                    compost
-                </span>
-                Goodpay: Troque Reciclagem e Bem Estar por CashBack
-            </h1>
-            <h3>
-                <span class="material-symbols-outlined" style="font-size: 1em;">
-                    credit_card_heart
-                </span>
-                Pontos Ecológicos que modificam a vida das pessoas com sustentabilidade.
-            </h3>
-            </p>
-            <hr />
-        </header>
-    </section>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <hr />
+        <h1>
+            <span class="material-symbols-outlined">
+                credit_card_heart
+            </span>
+            GoodPay
+        </h1>
+        <h6>
+            <span class="material-symbols-outlined">
+                temp_preferences_eco
+            </span>
+            Ecomoney para compor o seu negócio
+        </h6>
+    </header>
     <main>
-        <section name="body-site" style="color: black;">
-
+        <section name="texto-intro" style="color: darkblue;">
             <h1>
-                <span class="material-symbols-outlined" style="font-size: 1em;">
-                    history_edu
-                </span>
                 Nossa História
             </h1>
-            <strong>De Matão para o mundo: A origem do GoodPay</strong>
-            <hr>
+            <strong>
+                <span class="material-symbols-outlined">
+                    history_edu
+                </span>
+                De Matão para o mundo: A origem do GoodPay
+            </strong>
+            <hr />
             <p>
                 O GoodPay não nasceu em uma sala de reuniões corporativa, mas sim dentro de um ambiente de
-                educação e transformação: a Etec Sylvio de Matos Carvalho, na cidade de Matão. Somos um
+                educação e transformação: a <em>Etec Sylvio de Matos Carvalho</em>, na cidade de Matão. Somos um
                 grupo de alunos do curso Técnico de Informática que decidiu que a tecnologia não deve servir
                 apenas para criar sistemas, mas para transformar realidades.
             </p>
@@ -72,43 +67,14 @@
                 jornada: um ecossistema construído por estudantes da rede pública, focado em inovação
                 tecnológica responsável e cidadania.
             </p>
-            </div>
-            <div id="missao" class="w3-container goodpay-modal page">
-                <h1>
-                    <span class="material-symbols-outlined" style="font-size: 1em;">
-                        diversity_2
-                    </span>
-                    Missão e Valores
-                </h1>
-                <strong>Tecnologia com propósito humano</strong>
-                <hr>
-                <p>
-                    Nosso motor é a crença de que a tecnologia de ponta deve ser acessível e voltada para o bem
-                    comum. No GoodPay, trabalhamos para construir pontes em vez de muros.
-                </p>
-                <p>
-                    Nossa Missão: <br>
-                    Desenvolver soluções tecnológicas seguras, acessíveis e eficientes que
-                    promovam a inclusão e o desenvolvimento social, provando que a inovação aliada à educação
-                    pode transformar comunidades. <br>
-                    Nossa Visão: <br>
-                    Ser referência em empreendedorismo social no setor de tecnologia, demonstrando
-                    o potencial e a excelência técnica dos alunos formados pelo ensino público técnico. <br>
-                    Nossos Valores: <br>
-                    Impacto Social: colocamos as pessoas e a sociedade no centro de cada linha de código. <br>
-                    Inovação Responsável: Buscamos soluções modernas que sejam éticas e sustentáveis. <br>
-                    Colaboração: Acreditamos no poder do trabalho em equipe e no compartilhamento do
-                    conhecimento. <br>
-                    Excelência Técnica: Rigor e qualidade em tudo o que desenvolvemos. <br>
-                </p>
         </section>
-        <section name="texto-contensor" id="noticias">
-            <h2>
-                <span class="material-symbols-outlined" style="font-size: 2em;">
-                    whatshot
-                </span>
-                <strong>GoodPay | News </strong>
-            </h2>
+        <section name="historia" style="color: black;" id="nossa-historia">
+            <h2><strong>
+                    <span class="material-symbols-outlined">
+                        whatshot
+                    </span>
+                    GoodPay | News
+                </strong></h2>
             by: <em>Victor Sena Icoma</em>
             <blockquote
                 cite="https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/11/corinthians-decide-nao-renovar-contrato-de-memphis.ghtml">
@@ -153,56 +119,60 @@
                 bebês, mas há preocupações éticas e de saúde
             </blockquote>
         </section>
-        <hr />
-        <section name="galeria-imagens" id="ecomoney">
+        <section name="galeria-imagens" id="fotos-contexto">
             <center>
                 <table
-                    style="max-width: 920px; border: 1px solid black; background-color: lightgoldenrodyellow; border-radius: 15px; padding: 1%;">
+                    style="max-width: 920px;background-color: aquamarine; border-radius: 15px; padding: 1%; margin: 2%;">
                     <tr>
-                        <td><img src="./img/gp1.jpg" alt="Anuncio GP 1" width="144px" height="256px"></td>
-                        <td>Investir em sustentabilidade, com o GoodPay é investir em futuro e esperança nas próximas
-                            gerações. Energia Solar, Eco Reciclagem e Consumo de reuso faz para todos.</td>
-                        <td><img src="./img/gp2.jpg" alt="Anuncio GP 2" width="144px" height="256px"></td>
-                        <td>Plante futuro e colha seus frutos de redenção, os passos para um futuro de novas gerações
+                        <td>
+                            <img src="./img/gp1.jpg" alt="Galeria 1" width="144px" height="256px">
+                        </td>
+                        <td>
+                            Investir em sustentabilidade, com o GoodPay é investir em futuro e esperança nas próximas
+                            gerações. Energia Solar, Eco Reciclagem e Consumo de reuso faz para todos.
+                        </td>
+                        <td>
+                            <img src="./img/gp2.jpg" alt="Galeria 2" width="144px" height="256px">
+                        </td>
+                        <td>
+                            Plante futuro e colha seus frutos de redenção, os passos para um futuro de novas gerações
                             começa com sua visão de consumo. No nosso aplicativo uma rede de empresas se unem para um
-                            sistema colaborativo de ecorentabilidade.</td>
-
+                            sistema colaborativo de ecorentabilidade.
+                        </td>
                     </tr>
                     <tr>
-                        <td>Eco sutentavel é a casa do futuro, tenha sistema de energia limpa e ganhe pontuação para
+                        <td>
+                            Eco sustentável é a casa do futuro, tenha sistema de energia limpa e ganhe pontuação para
                             consumir com nossos colaboradores. Em parceria com a Energy a GoodPay troca pontos de
                             Energia Solar por produtos em nosso MarketPlace, de vestuário a eletrônicos temos aqui.
                         </td>
-                        <td><img src="./img/gp3.jpg" alt="Anuncio GP 3" width="144px" height="256px"></td>
-                        <td>Eco reforma, seu jardim pode render dinheiro, já pensou em vender consumo de agua de reuso,
+                        <td>
+                            <img src="./img/gp3.jpg" alt="Galeria 3" width="144px" height="256px">
+                        </td>
+                        <td>
+                            Eco reforma, seu jardim pode render dinheiro, já pensou em vender consumo de agua de reuso,
                             com o sistema de captação de agua da GoodPay podemos coletar de 20 até 500 mil m<sup>3</sup>
-                            para limpeza ou mesmo para utilização em sistema de hidraúlica motora.</td>
-                        <td><img src="./img/gp4.jpg" alt="Anuncio GP 4" width="144px" height="256px"></td>
-
+                            para limpeza ou mesmo para utilização em sistema de hidraúlica motora.
+                        </td>
+                        <td>
+                            <img src="./img/gp4.jpg" alt="Galeria 4" width="144px" height="256px">
+                        </td>
                     </tr>
                 </table>
             </center>
         </section>
         <section name="divisores">
-            <div style="background-color: lightseagreen; 
-            width: 920px; height: 280px; justify-content: space-between; 
-            margin: 1% auto 1% auto; border-radius: 15px; padding: 10px;">
-                Container 1
-            </div>
-            <div style="max-width: 920px; margin: 1% auto 1% auto; height: 920px;">
-                <div style="background-image: url('./img/gp3.jpg'); 
-                background-size: cover; color: aliceblue; 
-                max-width: 60%; padding: 10px;
-                height: 640px;">
-                    <h1>Promoção EcoCasas</h1>
-                    <p>Casa Ecológica dinheiro no bolso</p>
+            <div style="background-color: greenyellow; width: 920px; 
+            margin-left: auto; margin-right: auto; padding: 10px; color: aliceblue;">
+                <div style="background-image: url('./img/gp2.jpg'); background-size: cover;
+                max-width: 60%; height: 680px; padding: 10px;">
+                    <h1>Casa Inteligente e Ecosuficiente</h1>
+                    <p>Sua casa rede dinheiro com sustentabilidade.</p>
                 </div>
-                <div style="background-image: url('./img/gp2.jpg'); 
-                background-size: cover; color: aliceblue; 
-                max-width: 60%; padding: 10px;
-                height: 640px;">
-                    <h1>Jardim de Energia Solar</h1>
-                    <p>Seu Jardim pode render Volts de investimento</p>
+                <div style="background-image: url('./img/gp3.jpg'); background-size: cover;
+                max-width: 60%; height: 680px; padding: 10px;">
+                    <h1>Eco Energy Jardim</h1>
+                    <p>Um jardim de possibilidades para sua agua e reutilização de energia.</p>
                 </div>
             </div>
         </section>
