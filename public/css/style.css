@@ -7,6 +7,8 @@ body {
     margin-bottom: 0;
     padding: 0;
     max-width: 1080px;  
+    background-image: url("../img/site_fundo.svg");
+    background-size: cover;
 }
 nav{
     overflow: hidden;
